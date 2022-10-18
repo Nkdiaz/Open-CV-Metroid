@@ -28,14 +28,14 @@ pythonwin packages for training the cascade
 ## Haar Cascade structure
 The custom haar cascade was created using the [positive](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/positive) and [negative](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/negative) images of doors from the video game. The location of the images and their respective sizes are listed in the pos/neg.txt files. The trained cascade, parameters, and stages are kept in the [cascade](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/cascade) folder
 
-# to run
+# To Run
 Assumming all the dependencies are installed: 
 
 The project is configured to capture and track the location of doors in real life while a user is playing the metroid video game. For the purposes of testing, there are several metroid speed run videos that were used to train the cascade. While they are not invoked in the main.py folder, there are several filters that could aid in object detection included in the project structure
 - [hsv filter](https://github.com/Nkdiaz/Open-CV-Metroid/blob/master/hsvfilter.py)
 - [edge filter](https://github.com/Nkdiaz/Open-CV-Metroid/blob/master/edgefilter.py)
 
-With a video of metroid playing in the background, run 'python main.py' which will invoke the haar cascade classifier and have object detection on the various doors encountered while playing. 
+With a video of metroid playing in the background, run `python main.py` which will invoke the haar cascade classifier and have object detection on the various doors encountered while playing. 
 
 
 
