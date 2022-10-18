@@ -3,6 +3,17 @@ Open-CV-Metroid is on ongoing project to use [open-cv](https://opencv.org/) to f
 
 # Project Dependencies
 This project was run on a windows operating system and has not been tested in an OS enviornment. Several of the commands are windows specific. OS compatibility will be added shortly.
+- Python 3.10
+- Opencv-python 4.6.0.66
+- numpy 1.23.2
+- Pillow 9.2.0
+- pywin32 304
+- wheel 0.37.1
+- pyAutoGui 0.9.53
+- PyGetWindow 0.0.9
+
+pythonwin packages for training the cascade
+- Win32 gui, win32ui, win32con
 
 ## Code Structure 
 - [main.py](https://github.com/Nkdiaz/Open-CV-Metroid/blob/master/main.py)
