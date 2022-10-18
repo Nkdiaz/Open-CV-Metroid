@@ -26,13 +26,7 @@ pythonwin packages for training the cascade
   - custom data structure to hold the state of a canny edge filter.
 
 ## Haar Cascade structure
-- cascade
-- negative
-- postive
-- negative.py
-- positive.py
-- pos.txt
-- neg.txt
+The custom haar cascade was created using the [positive](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/positive) and [negative](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/negative) images of doors from the video game. The location of the images and their respective sizes are listed in the pos/neg.txt files. The trained cascade, parameters, and stages are kept in the [cascade](https://github.com/Nkdiaz/Open-CV-Metroid/tree/master/cascade) folder
 
 # to run
 
