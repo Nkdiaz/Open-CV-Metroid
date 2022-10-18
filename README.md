@@ -31,7 +31,7 @@ The custom haar cascade was created using the [positive](https://github.com/Nkdi
 # To Run
 Assumming all the dependencies are installed: 
 
-The project is configured to capture and track the location of doors in real life while a user is playing the metroid video game. For the purposes of testing, there are several metroid speed run videos that were used to train the cascade. While they are not invoked in the main.py folder, there are several filters that could aid in object detection included in the project structure
+The project is configured to capture and track the location of doors in real life while a user is playing the metroid video game. For the purposes of testing, there are several metroid speed run videos that were used to train the cascade. While they are not invoked in the main.py folder, there are several filters that could aid in object detection included in the project structure.
 - [hsv filter](https://github.com/Nkdiaz/Open-CV-Metroid/blob/master/hsvfilter.py)
 - [edge filter](https://github.com/Nkdiaz/Open-CV-Metroid/blob/master/edgefilter.py)
 
